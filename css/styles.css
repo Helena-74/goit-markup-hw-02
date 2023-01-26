@@ -1,0 +1,209 @@
+/* колер основного тексту color: #2E2F42;*/
+/* колер вторинного тексту color: #434455;*/
+/*білий color: #FFFFFF; */
+/*background: #404BBF;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;*/
+/* IRIS color: #4D5AE5;*/ /* background: #2e2f42;*/
+/*color: #E7E9FC;*/ /* color: #F4F4FD*/
+/* колер вторинного фону color: #434455;*/
+/*background: #F4F4FD;*/
+
+:root {
+  --main-title-color: #434455;
+  --second-title-color: #2e2f42;
+  --main-btn-color: #404bbf;
+  --second-btn-color: ;
+  --accent-color: #4d5ae5;
+}
+.page {
+  background: #ffffff;
+  color: var(--main-title-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+}
+.span {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--second-btn-color);
+}
+.site-address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: aqua;
+}
+.site-address .link:hover,
+.link:focus {
+  color: aqua;
+}
+.site-nav .link-current {
+  color: var(--accent-color);
+}
+/*Hero*/
+.hero-title {
+  color: #ffffff;
+  background: var(--main-title-color);
+}
+.hero-pre-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-btn-activ {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  color: #ffffff;
+  background: var(--accent-color);
+}
+.hero-text-btn {
+  width: 105px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.hero-btn .btn:hover,
+.hero-btn .btn:focus {
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button-activ {
+  color: #ffffff;
+  background: var(--main-btn-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button-primary {
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.button-primary .btn:hover,
+.btn:focus {
+  background: #e7e9fc;
+}
+/*Section*/
+.section {
+  color: #ffffff;
+}
+.section-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.section-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.section-pre-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.section-item {
+  background: #f4f4fd;
+}
+.section-list {
+  background: #ffffff;
+}
+.section-list-item {
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
+}
+.footer {
+  background: #2e2f42;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
