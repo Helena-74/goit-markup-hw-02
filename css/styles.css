@@ -87,7 +87,7 @@ border-radius: 4px;*/
   padding: 16px 32px;
   gap: 10px;
   color: var(--main-text-color);
-  background: var(--accent-color);
+  background: var(--main-btn-color);
 }
 .hero-text-btn {
   width: 105px;
@@ -100,8 +100,8 @@ border-radius: 4px;*/
   letter-spacing: 0.04em;
   color: var(--main-text-color);
 }
-.hero-btn .btn:hover,
-.hero-btn .btn:focus {
+.hero-btn-primary .btn:hover,
+.btn:focus {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -114,14 +114,14 @@ border-radius: 4px;*/
   border-radius: 4px;
 }
 .button-primary {
-  background: var(--background-color);
+  background: var(--accent-color);
   border: 1px solid var(--second-btn-color);
   border-radius: 4px;
 }
 
 .button-primary .btn:hover,
 .btn:focus {
-  background: var(--second-btn-color);
+  background: var(--accent-color);
 }
 /*Section*/
 .section {
