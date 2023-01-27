@@ -20,7 +20,6 @@ border-radius: 4px;*/
 }
 
 .page {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   background: var(--main-text-color);
   color: var(--main-title-color);
@@ -33,7 +32,7 @@ border-radius: 4px;*/
   text-decoration: none;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -169,7 +168,7 @@ border-radius: 4px;*/
   background: var(--second-title-color);
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
